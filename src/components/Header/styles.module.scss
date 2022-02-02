@@ -1,0 +1,34 @@
+.headerContent {
+	width: 100vw;
+	height: 11vh;
+	background-color: black;
+	border-bottom: 1px solid red;
+
+	nav {
+		width: 80vw;
+		height: 10vh;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+
+		ul {
+			display: flex;
+			align-items: center;
+
+			li {
+				margin-left: 20px;
+				list-style: none;
+
+				a {
+					text-decoration: none;
+					color: white;
+					transition: 0.3s;
+
+					&:hover {
+						color: red;
+					}
+				}
+			}
+		}
+	}
+}
