@@ -6,7 +6,7 @@ export default function handler(req: NextApiRequest,res: NextApiResponse) {
     res.status(200).json([
       {
         img: '/images/img1.jpg',
-        name: 'teste 1 ',
+        name: 'Testando página estatica',
         price: '$ 9.60',
         id: 1,
       },
