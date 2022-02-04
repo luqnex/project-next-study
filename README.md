@@ -22,7 +22,7 @@
 <p>2° - Abra a pasta project-next-study instale as dependencias na pasta e inicie o projeto</p>
 
 ```bash
-   cd project-next-study && yarn && yarn start
+   cd project-next-study && yarn && yarn dev
 ```
 
 <h2>🛠️ Bibliotecas / Linguagens</h2>
