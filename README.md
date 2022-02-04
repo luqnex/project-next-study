@@ -27,6 +27,6 @@
 
 <h2>🛠️ Bibliotecas / Linguagens</h2>
 
--[Next Js](https://nextjs.org/) - O Next.js oferece a melhor experiência de desenvolvedor com todos os recursos necessários para produção: renderização híbrida estática e de servidor, suporte a TypeScript, agrupamento inteligente, pré-busca de rota e muito mais.
+- [Next Js](https://nextjs.org/) - O Next.js oferece a melhor experiência de desenvolvedor com todos os recursos necessários para produção: renderização híbrida estática e de servidor, suporte a TypeScript, agrupamento inteligente, pré-busca de rota e muito mais.
 
 - [TypeScript](https://www.typescriptlang.org/) - TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, oferecendo melhores ferramentas em qualquer escala.
