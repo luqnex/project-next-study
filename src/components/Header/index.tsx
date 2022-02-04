@@ -9,13 +9,13 @@ export function Header() {
 				<nav>
 					<ul>
 						<li>
-							<Link href="/">CSR</Link>
+							<Link href="/">Client Side Rendering (CSR)</Link>
 						</li>
 						<li>
-							<Link href="/ssr">SSR</Link>
+							<Link href="/ssr">Server Side Rendering (SSR)</Link>
 						</li>
 						<li>
-							<Link href="/ssg">SSG</Link>
+							<Link href="/ssg">Static Site Generation (SSG)</Link>
 						</li>
 					</ul>
 				</nav>
