@@ -25,6 +25,23 @@
    cd project-next-study && yarn && yarn dev
 ```
 
+<p>3° - Build da aplicação</p>
+
+<p>Para testar a página de SSG é nescesario rodar um build da aplicação.</p>
+<p>Rode o projeto</p>
+
+```bash
+   yarn dev
+```
+
+<p>Depois rode a build</p>
+
+```bash
+   yarn build
+```
+
+<strong>Para rodar a build é necessario o projeto estar rodando localmente pois o projeto depende de uma API criada utilizando o Next Js, e está API só está em execução no momento em que o projeto está rodando.</strong>
+
 <h2>🛠️ Bibliotecas / Linguagens</h2>
 
 - [Next Js](https://nextjs.org/) - O Next.js oferece a melhor experiência de desenvolvedor com todos os recursos necessários para produção: renderização híbrida estática e de servidor, suporte a TypeScript, agrupamento inteligente, pré-busca de rota e muito mais.
