@@ -1,34 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2>⚙️ Funcionalidades</h2>
 
-## Getting Started
+<ul>
+    <li>Uma página criada com Client side rendering</li>
+    <li>Uma página criada com Server side rendering</li>
+    <li>Uma página criada com Static Site Generation</li>
 
-First, run the development server:
+</ul>
+
+<h2>🔧 Instruções para rodar está aplicação</h2>
+
+<strong>Obs. necessario ter node.js instalado no seu PC/Notebook.</strong>
+
+<p>1° - Clone o repositorio utilizando o seu terminal de preferencia</p>
 
 ```bash
-npm run dev
-# or
-yarn dev
+   git@github.com:luqnex/project-next-study.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+</br>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<p>2° - Abra a pasta project-next-study instale as dependencias na pasta e inicie o projeto</p>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+   cd project-next-study && yarn && yarn start
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<h2>🛠️ Bibliotecas / Linguagens</h2>
 
-## Learn More
+-[Next Js](https://nextjs.org/) - O Next.js oferece a melhor experiência de desenvolvedor com todos os recursos necessários para produção: renderização híbrida estática e de servidor, suporte a TypeScript, agrupamento inteligente, pré-busca de rota e muito mais.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [TypeScript](https://www.typescriptlang.org/) - TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, oferecendo melhores ferramentas em qualquer escala.

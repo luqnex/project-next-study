@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Card } from "../components/Card";
 import { Header } from "../components/Header";
@@ -35,7 +37,13 @@ export default function Home() {
 				<div className={styles.containerCard}>
 					{itens?.sort().map((item) => (
 						<Card key={item.id}>
-							<p>{item.img}</p>
+							<Image
+								src={item.img}
+								width={300}
+								height={250}
+								alt="Imagem"
+								objectFit="cover"
+							/>
 							<p>{item.name}</p>
 							<p>{item.price}</p>
 						</Card>

@@ -1,5 +1,6 @@
 import { GetServerSideProps } from "next";
 import Head from "next/head";
+import Image from "next/image";
 import { Card } from "../../components/Card";
 import { Header } from "../../components/Header";
 import { Main } from "../../components/Main";
@@ -30,7 +31,13 @@ export default function SSR({ itens }: Props) {
 				<div className={styles.containerCard}>
 					{itens?.map((item) => (
 						<Card key={item.id}>
-							<p>{item.img}</p>
+							<Image
+								src={item.img}
+								width={300}
+								height={250}
+								alt="Imagem"
+								objectFit="cover"
+							/>
 							<p>{item.name}</p>
 							<p>{item.price}</p>
 						</Card>
